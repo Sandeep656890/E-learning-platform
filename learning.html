@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnify - Online Learning Platform</title>
+  <link rel="stylesheet" href="learning.css">
+</head>
+<body>
+  <header>
+    <h1>Learnify 📚</h1>
+    <nav>
+      <a href="#videos">Videos</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#progress">Progress</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="videos" class="video-section">
+      <h2>🎥 Video Lessons</h2>
+      <div class="playlist">
+        <button onclick="loadVideo('video1.mp4')">Lesson 1: Intro to HTML</button>
+        <button onclick="loadVideo('video2.mp4')">Lesson 2: CSS Basics</button>
+        <button onclick="loadVideo('video3.mp4')">Lesson 3: JavaScript Basics</button>
+      </div>
+      <video id="videoPlayer" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support video playback.
+      </video>
+    </section>
+
+    <section id="quiz" class="quiz-section">
+      <h2>🧠 Quick Quiz</h2>
+      <div id="quiz-container"></div>
+      <button onclick="submitQuiz()">Submit Quiz</button>
+      <p id="quiz-result"></p>
+    </section>
+
+    <section id="progress" class="progress-section">
+      <h2>📊 Your Progress</h2>
+      <button onclick="markLessonCompleted()">Mark Current Lesson as Completed</button>
+      <p>Lessons completed: <span id="completed-count">0</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Learnify. All rights reserved.</p>
+  </footer>
+
+  <script src="learning.js"></script>
+</body>
+</html>
+
+
