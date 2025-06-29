@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+}
+
+header {
+  background: #2b7a78;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #3aafa9;
+}
+
+.playlist button {
+  background: #3aafa9;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.playlist button:hover {
+  background: #2b7a78;
+}
+
+video {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.quiz-question {
+  margin-bottom: 1rem;
+}
+
+.quiz-question p {
+  margin: 0.5rem 0;
+}
+
+.quiz-option {
+  display: block;
+  margin: 0.2rem 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background: #2b7a78;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
