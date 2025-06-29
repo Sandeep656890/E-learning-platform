@@ -6,7 +6,7 @@
 
 *INTERN ID*:CT04DF402
 
-*DOMAIN*: 1 MONTH
+*DOMAIN*: 4 WEEKS
 
 *MENTOR*: NEELA SANTOSH KUMAR
 
@@ -25,3 +25,7 @@ From a technical perspective, the platform is built using HTML, CSS, and JavaScr
 The project addresses real-world needs by making quality education accessible to a broader audience, reducing geographical and economic barriers. It supports self-paced learning, which is crucial for students balancing studies with work or personal commitments.
 
 In summary, our e-learning platform is not just a website but an integrated solution designed to transform how knowledge is delivered and absorbed. It combines modern web technologies with educational best practices to create an engaging, flexible, and inclusive learning environment for everyone.
+
+#Output
+
+![Image](https://github.com/user-attachments/assets/b18d43d8-d4e4-4c03-83b2-d7cecb1ba6bb)
